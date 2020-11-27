@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<!-- Full Name:Muhammad Haruna Hamza
+ID: 181103078
+Department: computer science 
+Level: 300 -->
+<head>
+	<title>home</title>
+	<link href = "../css/home.css" rel = "stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+        .flip-box {
+          background-color: transparent;
+          width: 300px;
+          height: 200px;
+/*          border: 1px solid #f1f1f1;*/
+          perspective: 1000px;
+            float: left; 
+            margin-bottom: 30px;
+        }
+
+        .flip-box-inner {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          transition: transform 0.8s;
+          transform-style: preserve-3d;
+        }
+
+        .flip-box:hover .flip-box-inner {
+          transform: rotateY(180deg);
+        }
+
+        .flip-box-front, .flip-box-back {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+        }
+
+        .flip-box-front {
+          background-color: #bbb;
+          color: black;
+        }
+
+        .flip-box-back {
+          background-color: dodgerblue;
+          color: white;
+          transform: rotateY(180deg);
+        }
+    </style>
+</head>
+<body>
+	<div class = "nav">
+		<div class = "innerNav">
+			<div  class = "innerNav2 centerVertical"> HOME</div>
+			<div class = "innerNav2 centerVertical"> PROJECTS </div>
+			<img src = "../html/nt_white.png" class = 'logo centerVertical'>
+			<div class = "innerNav2 centerVertical"> SHOP </div>
+			<div class = "innerNav2 centerVertical"> CONTACT US </div>
+			<div class = "cart centerVertical"><i class="fa fa-cart-plus"></i></div>
+		</div>
+	</div>
+	
+	<div class = "bg1C" style="background-image : url('../html/slider1.jpg'); height: 100vh">
+		<div class = "titleH centerVertical">
+			<div class = "title1 ">LET'S TECH IT!</div>
+			<div class = "title2  "> IF LIFE IS BECOMING SMARTER, WHY WON'T YOU ?</div>
+			
+			<div class = "viewourwork">
+					<div class  = "title7"><i class="fa fa-play iconplay"></i>VIEW OUR WORK</div>
+			</div>
+		</div>
+		
+				
+	</div>
+    
+    <div class = "bg2c" style="background-image : url('../html/tech.jpg'); ">
+        <img src = "../html/favion.png">
+        <h1>WHAT WE DO</h1>
+        <p>NIGHTOWL TECHNOLOGY PROVIDES IT/SOLUTION RELATED TO SOFTWARE AND HARDWARE ACROSS NIGERIA</p>
+        <div class = "flips">
+            <div class="flip-box" style = "margin-right: 33.33px">
+              <div class="flip-box-inner">
+                <div class="flip-box-front" style = "background: #3fc7b0">
+                    <div class = "firstF">
+                        <h2>Security Gadgets</h2>
+                        <p>We Supply & install security gadgets</p>
+                    </div>
+                  
+                </div>
+                <div class="flip-box-back" style = "background: #3fc7b0">
+                  <p style = "font-size: 13px; position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); width: 100%; margin: 0">We supply & install CCTV surveillance camera to ensure good monitoring of your home and business place</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="flip-box" style = "margin-right: 33.33px">
+              <div class="flip-box-inner">
+                <div class="flip-box-front" style = "background: #f67a68">
+                    <div class = "firstF">
+                        <h2>Mobile Apps</h2>
+                        <p>We Build Apps for both IOS & Android</p>
+                    </div>
+                  
+                </div>
+                <div class="flip-box-back" style = "background: #f67a68">
+                  <p style = "font-size: 13px; position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); width: 100%; margin: 0">We design and develop mobile applications with excellent design and powerful user experience that is very easy to use</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="flip-box" >
+              <div class="flip-box-inner">
+                <div class="flip-box-front" style = "background: #339bc2">
+                    <div class = "firstF">
+                        <h2>Tech Partnering</h2>
+                        <p>Let's work together</p>
+                    </div>
+                  
+                </div>
+                <div class="flip-box-back" style = "background: #339bc2">
+                  <p style = "font-size: 13px; position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); width: 100%; margin: 0">Do you have an innovative idea?  let’s work together and make your dreams come true. Nightowl Technology is equipped with experienced youth and professional team.</p>
+                </div>
+              </div>
+            </div>
+            
+             <div class="flip-box" style = "margin-right: 33.33px">
+              <div class="flip-box-inner">
+                <div class="flip-box-front" style = "background: #c83f43">
+                    <div class = "firstF">
+                        <h2>Website design</h2>
+                        <p>Build online presence with us</p>
+                    </div>
+                  
+                </div>
+                <div class="flip-box-back" style = "background: #c83f43">
+                  <p style = "font-size: 13px; position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); width: 100%; margin: 0">We develop 100% fully responsive website that is very easy to use and Manage</p>
+                </div>
+              </div>
+            </div>
+            
+             <div class="flip-box" style = "margin-right: 33.33px">
+              <div class="flip-box-inner">
+                <div class="flip-box-front" style = "background: #a96eb7">
+                    <div class = "firstF">
+                        <h2>Student Portal</h2>
+                        <p>Make it easy for all</p>
+                    </div>
+                  
+                </div> 
+                <div class="flip-box-back" style = "background: #a96eb7">
+                  <p style = "font-size: 13px; position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); width: 100%; margin: 0">We design and develop school management system to ease grade computation. help parents to monitor their children performance and much more.</p>
+                </div>
+              </div>
+            </div>
+            
+             <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front" style = "background: #be8864">
+                    <div class = "firstF">
+                        <h2>Custom Branding</h2>
+                        <p>Buy our custom branding from us</p>
+                    </div>
+                  
+                </div>
+                <div class="flip-box-back" style = "background: #be8864">
+                  <p style = "font-size: 13px; position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); width: 100%; margin: 0">Feel free to visit our shop & buy custom branded Nightowl shirts, Caps, Stickers and MacBook cases. Go to store</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <i class="fa fa-chevron-down" style = "color: white; clear: left; font-size: 60px; position: absolute; bottom: 10px;
+                                               left: 50%; transform: translateX(-50%)"></i>
+    </div>
+    
+    <div class = "bg3c" style="background-image : url('../html/apps.jpg'); ">
+        <div class = "mid" style = "position: relative; left: 50%; transform: translateX(-50%); float: left; text-align: center;">
+            <img src = "../html/favion.png">
+            <h1>Our Apps</h1>
+        <p>CLICK BELOW TO VIEW OUR APPS CATALOGUE</p>
+            <div style = "background: white; color: black; padding: 16px 22px; border-radius: 25px; float: left;
+                          position: relative; left: 50%; transform: translateX(-50%)"><i class="fa fa-play iconplay"></i>&nbsp;OUR PLAYSTORE APPS</div>
+            <div style = "background: white; color: black; padding: 16px 22px; border-radius: 25px; float: left; clear: left;
+                          position: relative; left: 50%; transform: translateX(-50%); margin-top: 5px;"><i class="fa fa-play iconplay"></i>&nbsp;OUR APPSTORE APPS</div>
+            
+        </div>
+         <i class="fa fa-chevron-down" style = "color: white; clear: left; font-size: 60px; position: absolute; bottom: 10px;
+                                               left: 50%; transform: translateX(-50%)"></i>
+    </div>
+	<div class = "contact1" style="background-image : url('../html/contact.jpg')">
+				
+				<div class = "body2 centerVertical">
+					<img src = "../html/favion.png" class 'logo2 centerVertical' >
+					<div class = "title3" >ARE YOU READY?</div>
+					<div class = "title4"> LETS TALK BUSINESS</div>
+					<div class = "contactus">
+						<i class="fa fa-play iconplay"></i>CONTACT US</div>
+				</div>	
+				
+
+			</div>
+			<footer>
+		<div class="f-container" style="background-color: grey; height: 100px">
+		<div>
+		© Copyright - 2020    |  Contact 08034135061  |   Powered by Nightowl Technology
+		</div>
+		</div>
+		</footer>
+    
+</body>
+    
+</html>
+
+
